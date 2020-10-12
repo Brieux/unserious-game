@@ -1,0 +1,39 @@
+/**
+ * index.scss
+ * - Add any styyou want here!
+ */
+ @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+ body {
+    font-family: 'Indie Flower', cursive;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+ .head{
+   top:0;
+   left: center;
+   position:fixed;
+   background: darksalmon ;
+   border-radius: 20px;
+   padding: 5px;
+ }
+ h1 {
+    text-shadow: 2px 2px 5px pink;
+  }
+  a{
+    color: white;
+}
+  ul {
+    background:pink;
+    border-radius: 10px;
+  }
+
+  ul li {
+    background:lightsalmon;
+    margin: 5px;
+    border-radius: 25px;
+    padding: 5px;
+  }
