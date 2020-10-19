@@ -5,6 +5,7 @@
  @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
  body {
     font-family: 'Indie Flower', cursive;
+    font-size: 10%;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -23,9 +24,12 @@
   }
  h1 {
     text-shadow: 2px 2px 5px blue;
+    font-size: 10%;
   }
+
   a{
       color: white;
+
   }
   ul {
     background:lightblue;
