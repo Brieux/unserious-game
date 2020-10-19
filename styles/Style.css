@@ -4,6 +4,10 @@
  */
  @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
  body {
+    background: url(https://media.giphy.com/media/Ph0oIVQeuvh0k/giphy.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     font-family: 'Indie Flower', cursive;
     display: flex;
     min-height: 100vh;
@@ -25,11 +29,12 @@
     color:white;
   }
  h1 {
+   color: white;
     text-shadow: 2px 2px 5px blue;
   }
 
   a{
-      color:black;
+      color:white;
 
   }
   ul {
