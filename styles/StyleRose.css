@@ -19,12 +19,17 @@
    background: darksalmon ;
    border-radius: 20px;
    padding: 5px;
+   size: 35%;
  }
+
+ .head a{
+  color:white;
+}
  h1 {
     text-shadow: 2px 2px 5px pink;
   }
   a{
-    color: white;
+    color: black;
 }
   ul {
     background:pink;
@@ -36,4 +41,38 @@
     margin: 5px;
     border-radius: 25px;
     padding: 5px;
+  }
+
+  .btn {
+    box-shadow: 6px 6px 0px 0px #bb3ba6;
+    background:#333;
+    border:1px solid black;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:'Indie Flower', cursive;
+    font-size:17px;
+    padding:7px 25px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #b1087e;
+  }
+  .btn:hover {
+    background:linear-gradient(to bottom, #df2898 5%, #e22f56 100%);
+    background-color:#da2ca5;
+  }
+  .btn:active {
+    position:relative;
+    top:1px;
+  }
+  
+  
+  /** liste de boutons **/
+  .btns-list{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 8px;
+    justify-content: center;
+  }
+  .btn{
+    margin: 15px;
   }

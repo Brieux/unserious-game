@@ -5,7 +5,6 @@
  @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
  body {
     font-family: 'Indie Flower', cursive;
-    font-size: 10%;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -20,15 +19,17 @@
     background:darkblue;
     border-radius: 20px;
     padding: 5px;
-    text : white;
+    size: 200px;
+  }
+  .head a{
+    color:white;
   }
  h1 {
     text-shadow: 2px 2px 5px blue;
-    font-size: 10%;
   }
 
   a{
-      color: white;
+      color:black;
 
   }
   ul {
@@ -40,4 +41,38 @@
     background:blue;
     margin: 5px;
     border-radius: 25px;
+  }
+
+  .btn {
+    box-shadow: 6px 6px 0px 0px #0d38af;
+    background:#333;
+    border:1px solid black;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:'Indie Flower', cursive;
+    font-size:17px;
+    padding:7px 25px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #1b0158;
+  }
+  .btn:hover {
+    background:linear-gradient(to bottom, #18006d 5%, #157acc 100%);
+    background-color:#040fa5;
+  }
+  .btn:active {
+    position:relative;
+    top:1px;
+  }
+  
+  
+  /** liste de boutons **/
+  .btns-list{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 8px;
+    justify-content: center;
+  }
+  .btn{
+    margin: 15px;
   }
