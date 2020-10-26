@@ -1,9 +1,9 @@
 /**
  * CSS pour la page sur les couleurs
  */
- @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+ @import url(https://fonts.googleapis.com/css?family=Indie+Flower);/*Importation de la font*/
  body {
-  background: url(https://media.giphy.com/media/Ph0oIVQeuvh0k/giphy.gif);
+  background: url(https://media.giphy.com/media/Ph0oIVQeuvh0k/giphy.gif);/*Gif télévision*/
   background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -15,6 +15,7 @@
     align-items: center;
     text-align: center;
  }
+ /*Menu fixed top*/
  .head{
    top:0;
    left: center;
@@ -28,13 +29,30 @@
  .head a{
   color:white;
 }
+/*Signature*/
+.signature{
+  top:5px;
+  right: 5px;
+  position:fixed;
+  background:#222;
+  box-shadow: 5px 5px 15px 5px #000000;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.signature a{
+  font-family: Arial, Helvetica, sans-serif;
+  color:#f0f0f0;
+}
+/*Texte des questions*/
  h1 {
    color:white;
     text-shadow: 2px 2px 5px pink;
   }
+/*reponses*/
   a{
     color: rgb(255, 255, 255);
 }
+/*liste des reponses*/
   ul {
     background:pink;
     border-radius: 10px;
@@ -46,7 +64,7 @@
     border-radius: 25px;
     padding: 5px;
   }
-
+/*Bouton de choix*/
   .btn {
     box-shadow: 6px 6px 0px 0px #bb3ba6;
     background:#333;
@@ -69,8 +87,6 @@
     top:1px;
   }
   
-  
-  /** liste de boutons **/
   .btns-list{
     display: flex;
     flex-wrap: wrap;
